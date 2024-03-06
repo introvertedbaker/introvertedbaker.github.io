@@ -10,7 +10,7 @@
         <div class="header__brand">
             <a href="{{ __return }}" title="{%- if site.description -%}{{ site.description }}{%- endif -%}">
           {%- include svg/logo.svg -%}
-           </a>
+           </a> 
           {%- assign _paths_root = site.paths.root | default: site.data.variables.default.paths.root  -%}
           {%- include snippets/get-nav-url.html path=_paths_root -%}
           {%- if site.title -%}
