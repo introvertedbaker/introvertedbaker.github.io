@@ -28,13 +28,14 @@ show_title: false
 articles:
   data_source: paginator.posts
   article_type: BlogPosting
-  show_cover: false
+  show_cover: true
   show_excerpt: true
   show_readmore: true
   show_info: true
 ---
+<p>This is a random paragraph that appears at the top of the page.</p>
 <div class="layout--home">
-  <p>This is a random paragraph that appears at the top of the page.</p>
+  
   {%- include paginator.html -%}
 </div>
 <script>
